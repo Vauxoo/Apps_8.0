@@ -1,0 +1,1353 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* cmms
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-01-31 23:53+0000\n"
+"PO-Revision-Date: 2017-01-31 23:53+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: cmms
+#: field:cmms.equipment,active:0
+msgid "Active"
+msgstr "Activo"
+
+#. module: cmms
+#: field:cmms.incident,active:0
+msgid "Active?"
+msgstr "Activo?"
+
+#. module: cmms
+#: view:cmms.equipment:cmms.view_equipment_form
+msgid "Additional information"
+msgstr "Información adicional"
+
+#. module: cmms
+#: model:ir.ui.menu,name:cmms.menu_cmms_checklist_all
+msgid "All checklists"
+msgstr "Todas las listas de verificación"
+
+#. module: cmms
+#: view:cmms.config.settings:cmms.view_cmms_config_settings
+#: view:cmms.incident:cmms.cmms_incident-view
+#: view:cmms.intervention:cmms.view_intervention_form
+msgid "Annuler"
+msgstr "Anular"
+
+#. module: cmms
+#: selection:cmms.incident,state:0
+#: view:cmms.intervention:cmms.cmms_interv_search
+#: selection:cmms.intervention,state:0
+msgid "Annulé"
+msgstr "Cancelado"
+
+#. module: cmms
+#: view:cmms.checklist.history:cmms.view_checklist_history_form
+#: model:ir.model,name:cmms.model_cmms_answer_history
+msgid "Answers"
+msgstr "Respuestas"
+
+#. module: cmms
+#: field:cmms.archiving2,pm_id:0
+msgid "Archiving"
+msgstr "Archivo"
+
+#. module: cmms
+#: field:cmms.pm,days_last_done:0
+msgid "Begun the"
+msgstr "Iniciado el"
+
+#. module: cmms
+#: view:board.board:cmms.board_travaux_form
+msgid "Bons de travail"
+msgstr "Órdenes de trabajo"
+
+#. module: cmms
+#: selection:cmms.checklist.history,state:0
+msgid "Brouillon"
+msgstr "Borrador"
+
+#. module: cmms
+#: model:ir.model,name:cmms.model_cmms_archiving
+msgid "CM follow-up History"
+msgstr "Historia CM seguimiento"
+
+#. module: cmms
+#: field:cmms.cm,name:0
+msgid "CM reference"
+msgstr "Referencia CM"
+
+#. module: cmms
+#: model:ir.ui.menu,name:cmms.menu_cmms_config
+#: model:ir.ui.menu,name:cmms.menu_work_dashboard
+msgid "CMMS"
+msgstr "CMMS"
+
+#. module: cmms
+#: field:cmms.config.settings,server_cmms:0
+msgid "CMMS Server"
+msgstr "Servidor CMMS"
+
+#. module: cmms
+#: view:cmms.equipment:cmms.cmms_kanban_view
+msgid "Change Color"
+msgstr "Cambiar color"
+
+#. module: cmms
+#: selection:cmms.intervention,type:0
+msgid "Check"
+msgstr "Verificar"
+
+#. module: cmms
+#: field:cmms.answer.history,checklist_history_id:0
+#: view:cmms.checklist:cmms.view_checklist_tree
+#: view:cmms.checklist.history:cmms.view_checklist_history_tree
+#: field:cmms.checklist.history,checklist_id:0
+#: field:cmms.question,checklist_id:0
+#: model:ir.actions.act_window,name:cmms.cmms_checklist_action_all
+#: model:ir.ui.menu,name:cmms.menu_cmms_checklist_history
+msgid "Checklist"
+msgstr "Lista e verificación"
+
+#. module: cmms
+#: model:ir.model,name:cmms.model_cmms_checklist_history
+msgid "Checklist History"
+msgstr "Historial de verificaciones"
+
+#. module: cmms
+#: field:cmms.checklist.history,name:0
+msgid "Checklist name"
+msgstr "Nombre de verificaciones"
+
+#. module: cmms
+#: field:cmms.cm,user_id:0
+#: field:cmms.pm,user_id:0
+msgid "Chef"
+msgstr "Líder"
+
+#. module: cmms
+#: field:cmms.failure,code:0
+msgid "Code"
+msgstr "Código"
+
+#. module: cmms
+#: view:cmms.config.settings:cmms.view_cmms_config_settings
+#: model:ir.ui.menu,name:cmms.menu_cmms_configuration
+msgid "Configuration"
+msgstr "Configuración"
+
+#. module: cmms
+#: model:ir.actions.act_window,name:cmms.action_cmms_config
+msgid "Configurer cmms"
+msgstr "Configurar cmms"
+
+#. module: cmms
+#: view:cmms.checklist.history:cmms.view_checklist_history_form
+msgid "Confirmer"
+msgstr "Confirmar"
+
+#. module: cmms
+#: selection:cmms.checklist.history,state:0
+msgid "Confirmé"
+msgstr "Confirmado"
+
+#. module: cmms
+#: code:addons/cmms/res_config.py:75
+#: code:addons/cmms/res_config.py:157
+#, python-format
+msgid "Copie impossible"
+msgstr "No puede copiar"
+
+#. module: cmms
+#: field:cmms.diagnosistab,cm_id:0
+#: model:cmms.request.link,name:cmms.line1
+msgid "Corrective Maintenance"
+msgstr "Mantenimiento Correctivo"
+
+#. module: cmms
+#: model:ir.model,name:cmms.model_cmms_cm
+msgid "Corrective Maintenance System"
+msgstr "Sistema de Mantenimiento correctivo"
+
+#. module: cmms
+#: field:cmms.equipment,cm_count:0
+#: model:ir.actions.act_window,name:cmms.open_view_cm_new
+#: model:ir.ui.menu,name:cmms.menu_open_view_cm_new
+msgid "Corrective maintenance"
+msgstr "Mantenimiento correctivo"
+
+#. module: cmms
+#: field:cmms.answer.history,create_uid:0
+#: field:cmms.archiving,create_uid:0
+#: field:cmms.archiving2,create_uid:0
+#: field:cmms.archiving3,create_uid:0
+#: field:cmms.checklist,create_uid:0
+#: field:cmms.checklist.history,create_uid:0
+#: field:cmms.cm,create_uid:0
+#: field:cmms.config.settings,create_uid:0
+#: field:cmms.diagnosistab,create_uid:0
+#: field:cmms.equipment,create_uid:0
+#: field:cmms.failure,create_uid:0
+#: field:cmms.incident,create_uid:0
+#: field:cmms.intervention,create_uid:0
+#: field:cmms.line,create_uid:0
+#: field:cmms.parameter.mail,create_uid:0
+#: field:cmms.parameter.option,create_uid:0
+#: field:cmms.pm,create_uid:0
+#: field:cmms.question,create_uid:0
+#: field:cmms.request.link,create_uid:0
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: cmms
+#: field:cmms.answer.history,create_date:0
+#: field:cmms.archiving,create_date:0
+#: field:cmms.archiving2,create_date:0
+#: field:cmms.archiving3,create_date:0
+#: field:cmms.checklist,create_date:0
+#: field:cmms.checklist.history,create_date:0
+#: field:cmms.cm,create_date:0
+#: field:cmms.config.settings,create_date:0
+#: field:cmms.diagnosistab,create_date:0
+#: field:cmms.equipment,create_date:0
+#: field:cmms.failure,create_date:0
+#: field:cmms.incident,create_date:0
+#: field:cmms.intervention,create_date:0
+#: field:cmms.line,create_date:0
+#: field:cmms.parameter.mail,create_date:0
+#: field:cmms.parameter.option,create_date:0
+#: field:cmms.pm,create_date:0
+#: field:cmms.question,create_date:0
+#: field:cmms.request.link,create_date:0
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: cmms
+#: code:addons/cmms/res_config.py:68
+#: code:addons/cmms/res_config.py:150
+#, python-format
+msgid "Création impossible"
+msgstr "No puede crear"
+
+#. module: cmms
+#: field:cmms.archiving,date:0
+#: field:cmms.archiving2,date:0
+#: field:cmms.archiving3,date:0
+#: field:cmms.cm,date:0
+#: view:cmms.intervention:cmms.cmms_interv_search
+#: field:cmms.intervention,date:0
+msgid "Date"
+msgstr "Fecha"
+
+#. module: cmms
+#: view:cmms.equipment:cmms.cmms_kanban_view
+msgid "Date debut :"
+msgstr "Fecha de inicio: "
+
+#. module: cmms
+#: help:cmms.checklist.history,message_last_post:0
+#: help:cmms.cm,message_last_post:0
+#: help:cmms.equipment,message_last_post:0
+#: help:cmms.incident,message_last_post:0
+#: help:cmms.intervention,message_last_post:0
+#: help:cmms.line,message_last_post:0
+#: help:cmms.pm,message_last_post:0
+msgid "Date of the last message posted on the record."
+msgstr "Fecha del último mensaje publicado en el registro."
+
+#. module: cmms
+#: selection:cmms.pm,meter:0
+msgid "Days"
+msgstr "Días"
+
+#. module: cmms
+#: view:cmms.intervention:cmms.cmms_interv_search
+msgid "De qui"
+msgstr "De quien"
+
+#. module: cmms
+#: field:cmms.equipment,deadlinegar:0
+msgid "Deadline of guarantee"
+msgstr "Fecha límite de garantía"
+
+#. module: cmms
+#: field:cmms.archiving,description:0
+#: field:cmms.archiving2,description:0
+#: field:cmms.archiving3,description:0
+#: field:cmms.checklist,description:0
+msgid "Description"
+msgstr "Descripción"
+
+#. module: cmms
+#: field:cmms.answer.history,detail:0
+msgid "Detail"
+msgstr "Detalle"
+
+#. module: cmms
+#: model:ir.model,name:cmms.model_cmms_diagnosistab
+msgid "Diagnosis List"
+msgstr "Lista diagnóstico"
+
+#. module: cmms
+#: field:cmms.cm,diagnosistab_ids:0
+msgid "Diagnosis Table"
+msgstr "Tabla diagnóstico"
+
+#. module: cmms
+#: field:cmms.answer.history,display_name:0
+#: field:cmms.archiving,display_name:0
+#: field:cmms.archiving2,display_name:0
+#: field:cmms.archiving3,display_name:0
+#: field:cmms.checklist,display_name:0
+#: field:cmms.checklist.history,display_name:0
+#: field:cmms.cm,display_name:0
+#: field:cmms.config.settings,display_name:0
+#: field:cmms.diagnosistab,display_name:0
+#: field:cmms.equipment,display_name:0
+#: field:cmms.failure,display_name:0
+#: field:cmms.incident,display_name:0
+#: field:cmms.intervention,display_name:0
+#: field:cmms.line,display_name:0
+#: field:cmms.parameter.mail,display_name:0
+#: field:cmms.parameter.option,display_name:0
+#: field:cmms.pm,display_name:0
+#: field:cmms.question,display_name:0
+#: field:cmms.request.link,display_name:0
+msgid "Display Name"
+msgstr "Nombre para mostrar"
+
+#. module: cmms
+#: view:cmms.intervention:cmms.view_intervention_form
+msgid "Déffuser mail"
+msgstr "Notificación de correo electrónico"
+
+#. module: cmms
+#: view:cmms.equipment:cmms.cmms_kanban_view
+msgid "Edit"
+msgstr "Editar"
+
+#. module: cmms
+#: selection:cmms.intervention,state_machine:0
+msgid "En Arret"
+msgstr "Detenido"
+
+#. module: cmms
+#: selection:cmms.intervention,state_machine:0
+msgid "En Marche"
+msgstr "En marcha"
+
+#. module: cmms
+#: selection:cmms.incident,state:0
+#: view:cmms.intervention:cmms.cmms_interv_search
+#: selection:cmms.intervention,state:0
+msgid "En cours"
+msgstr "En curso"
+
+#. module: cmms
+#: field:cmms.checklist.history,date_end:0
+msgid "End date"
+msgstr "Fecha de fin"
+
+#. module: cmms
+#: view:cmms.incident:cmms.cmms_incident-view
+msgid "Equipement"
+msgstr "Equipo"
+
+#. module: cmms
+#: field:cmms.checklist,equipment_id:0
+#: view:cmms.equipment:cmms.view_equipment_form
+msgid "Equipment"
+msgstr "Equipo"
+
+#. module: cmms
+#: field:cmms.intervention,state_machine:0
+msgid "Etat de machine"
+msgstr "Condición del equipo"
+
+#. module: cmms
+#: field:cmms.diagnosistab,name:0
+msgid "Failure causes"
+msgstr "Causas de falla"
+
+#. module: cmms
+#: field:cmms.cm,failure_id:0
+msgid "Failure?"
+msgstr "Falla?"
+
+#. module: cmms
+#: model:ir.actions.act_window,name:cmms.cmms_checklist_history_action_new
+#: model:ir.ui.menu,name:cmms.menu_cmms_checklist_history_new
+msgid "Fill a checklist"
+msgstr "Llenar una lista de verificación"
+
+#. module: cmms
+#: view:cmms.pm:cmms.view_pm_form
+msgid "Follow-up history"
+msgstr "Historial de seguimiento"
+
+#. module: cmms
+#: field:cmms.checklist.history,message_follower_ids:0
+#: field:cmms.cm,message_follower_ids:0
+#: field:cmms.equipment,message_follower_ids:0
+#: field:cmms.incident,message_follower_ids:0
+#: field:cmms.intervention,message_follower_ids:0
+#: field:cmms.line,message_follower_ids:0
+#: field:cmms.pm,message_follower_ids:0
+msgid "Followers"
+msgstr "Seguidores"
+
+#. module: cmms
+#: model:ir.ui.menu,name:cmms.menu_cmm
+msgid "GMAO"
+msgstr "Cmms"
+
+#. module: cmms
+#: view:cmms.incident:cmms.cmms_incident-view
+msgid "General"
+msgstr "General"
+
+#. module: cmms
+#: view:cmms.equipment:cmms.view_equipment_form
+msgid "General Properties"
+msgstr "Propiedades Generales"
+
+#. module: cmms
+#: view:cmms.intervention:cmms.cmms_interv_search
+msgid "Grouper par ..."
+msgstr "Agrupar por..."
+
+#. module: cmms
+#: selection:cmms.incident,priority:0
+msgid "High"
+msgstr "Alto"
+
+#. module: cmms
+#: view:cmms.incident:cmms.cmms_incident-view
+msgid "History"
+msgstr "Historial"
+
+#. module: cmms
+#: help:cmms.checklist.history,message_summary:0
+#: help:cmms.cm,message_summary:0
+#: help:cmms.equipment,message_summary:0
+#: help:cmms.incident,message_summary:0
+#: help:cmms.intervention,message_summary:0
+#: help:cmms.line,message_summary:0
+#: help:cmms.pm,message_summary:0
+msgid "Holds the Chatter summary (number of messages, ...). This summary is directly in html format in order to be inserted in kanban views."
+msgstr "Contiene el resumen del mensajero (número de mensajes, ...). Este resumen está directamente en formato html para poder ser insertado en las vistas kanban."
+
+#. module: cmms
+#: field:cmms.answer.history,id:0
+#: field:cmms.archiving,id:0
+#: field:cmms.archiving2,id:0
+#: field:cmms.archiving3,id:0
+#: field:cmms.checklist,id:0
+#: field:cmms.checklist.history,id:0
+#: field:cmms.cm,id:0
+#: field:cmms.config.settings,id:0
+#: field:cmms.diagnosistab,id:0
+#: field:cmms.equipment,id:0
+#: field:cmms.failure,id:0
+#: field:cmms.incident,id:0
+#: field:cmms.intervention,id:0
+#: field:cmms.line,id:0
+#: field:cmms.parameter.mail,id:0
+#: field:cmms.parameter.option,id:0
+#: field:cmms.pm,id:0
+#: field:cmms.question,id:0
+#: field:cmms.request.link,id:0
+msgid "ID"
+msgstr ""
+
+#. module: cmms
+#: help:cmms.checklist.history,message_unread:0
+#: help:cmms.cm,message_unread:0
+#: help:cmms.equipment,message_unread:0
+#: help:cmms.incident,message_unread:0
+#: help:cmms.intervention,message_unread:0
+#: help:cmms.line,message_unread:0
+#: help:cmms.pm,message_unread:0
+msgid "If checked new messages require your attention."
+msgstr "i está marcado, nuevos mensajes requieren su atención."
+
+#. module: cmms
+#: field:cmms.archiving3,incident_id:0
+#: view:cmms.incident:cmms.cmms_incident-view
+#: view:cmms.incident:cmms.cmms_incident_tree-view
+#: model:ir.model,name:cmms.model_cmms_incident
+msgid "Incident"
+msgstr "Incidente"
+
+#. module: cmms
+#: view:cmms.incident:cmms.cmms_incident-view
+msgid "Incident description"
+msgstr "Descripción del incidente"
+
+#. module: cmms
+#: model:ir.model,name:cmms.model_cmms_archiving3
+msgid "Incident follow-up history"
+msgstr "Historial de seguimiento del incidente"
+
+#. module: cmms
+#: view:cmms.incident:cmms.cmms_incident-view
+msgid "Incident state"
+msgstr "Estado del incidente"
+
+#. module: cmms
+#: field:cmms.pm,days_interval:0
+msgid "Interval"
+msgstr "Intervalo"
+
+#. module: cmms
+#: field:cmms.equipment,intervention_count:0
+#: model:ir.ui.menu,name:cmms.menu_open_view_intervention_list
+msgid "Intervention"
+msgstr "Intervención"
+
+#. module: cmms
+#: field:cmms.intervention,date_inter:0
+msgid "Intervention date"
+msgstr "Fecha de intervención"
+
+#. module: cmms
+#: field:cmms.intervention,date_end:0
+msgid "Intervention end date"
+msgstr "Fecha de fin de la intervención"
+
+#. module: cmms
+#: field:cmms.intervention,name:0
+msgid "Intervention reference"
+msgstr "Referencia de intervención"
+
+#. module: cmms
+#: view:cmms.intervention:cmms.view_intervention_form
+#: view:cmms.intervention:cmms.view_intervention_tree
+#: model:cmms.request.link,name:cmms.line4
+#: model:ir.actions.act_window,name:cmms.open_view_intervention_new
+#: model:ir.model,name:cmms.model_cmms_intervention
+#: model:ir.ui.menu,name:cmms.menu_open_view_intervention_new
+msgid "Intervention request"
+msgstr "Solicitud de intervención"
+
+#. module: cmms
+#: view:cmms.intervention:cmms.cmms_interv_search
+msgid "Intervention research"
+msgstr "Investigación de intervención"
+
+#. module: cmms
+#: field:cmms.intervention,type:0
+msgid "Intervention type"
+msgstr "Tipos de intervención"
+
+#. module: cmms
+#: view:board.board:cmms.board_travaux_form
+#: view:cmms.equipment:cmms.view_equipment_form
+#: field:cmms.equipment,intervention_id:0
+msgid "Interventions"
+msgstr "Intervenciones"
+
+#. module: cmms
+#: field:cmms.checklist.history,message_is_follower:0
+#: field:cmms.cm,message_is_follower:0
+#: field:cmms.equipment,message_is_follower:0
+#: field:cmms.incident,message_is_follower:0
+#: field:cmms.intervention,message_is_follower:0
+#: field:cmms.line,message_is_follower:0
+#: field:cmms.pm,message_is_follower:0
+msgid "Is a Follower"
+msgstr "Es un seguidor"
+
+#. module: cmms
+#: field:cmms.checklist.history,message_last_post:0
+#: field:cmms.cm,message_last_post:0
+#: field:cmms.equipment,message_last_post:0
+#: field:cmms.incident,message_last_post:0
+#: field:cmms.intervention,message_last_post:0
+#: field:cmms.line,message_last_post:0
+#: field:cmms.pm,message_last_post:0
+msgid "Last Message Date"
+msgstr "Fecha del último mensaje"
+
+#. module: cmms
+#: field:cmms.answer.history,__last_update:0
+#: field:cmms.archiving,__last_update:0
+#: field:cmms.archiving2,__last_update:0
+#: field:cmms.archiving3,__last_update:0
+#: field:cmms.checklist,__last_update:0
+#: field:cmms.checklist.history,__last_update:0
+#: field:cmms.cm,__last_update:0
+#: field:cmms.config.settings,__last_update:0
+#: field:cmms.diagnosistab,__last_update:0
+#: field:cmms.equipment,__last_update:0
+#: field:cmms.failure,__last_update:0
+#: field:cmms.incident,__last_update:0
+#: field:cmms.intervention,__last_update:0
+#: field:cmms.line,__last_update:0
+#: field:cmms.parameter.mail,__last_update:0
+#: field:cmms.parameter.option,__last_update:0
+#: field:cmms.pm,__last_update:0
+#: field:cmms.question,__last_update:0
+#: field:cmms.request.link,__last_update:0
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: cmms
+#: field:cmms.answer.history,write_uid:0
+#: field:cmms.archiving,write_uid:0
+#: field:cmms.archiving2,write_uid:0
+#: field:cmms.archiving3,write_uid:0
+#: field:cmms.checklist,write_uid:0
+#: field:cmms.checklist.history,write_uid:0
+#: field:cmms.cm,write_uid:0
+#: field:cmms.config.settings,write_uid:0
+#: field:cmms.diagnosistab,write_uid:0
+#: field:cmms.equipment,write_uid:0
+#: field:cmms.failure,write_uid:0
+#: field:cmms.incident,write_uid:0
+#: field:cmms.intervention,write_uid:0
+#: field:cmms.line,write_uid:0
+#: field:cmms.parameter.mail,write_uid:0
+#: field:cmms.parameter.option,write_uid:0
+#: field:cmms.pm,write_uid:0
+#: field:cmms.question,write_uid:0
+#: field:cmms.request.link,write_uid:0
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: cmms
+#: field:cmms.answer.history,write_date:0
+#: field:cmms.archiving,write_date:0
+#: field:cmms.archiving2,write_date:0
+#: field:cmms.archiving3,write_date:0
+#: field:cmms.checklist,write_date:0
+#: field:cmms.checklist.history,write_date:0
+#: field:cmms.cm,write_date:0
+#: field:cmms.config.settings,write_date:0
+#: field:cmms.diagnosistab,write_date:0
+#: field:cmms.equipment,write_date:0
+#: field:cmms.failure,write_date:0
+#: field:cmms.incident,write_date:0
+#: field:cmms.intervention,write_date:0
+#: field:cmms.line,write_date:0
+#: field:cmms.parameter.mail,write_date:0
+#: field:cmms.parameter.option,write_date:0
+#: field:cmms.pm,write_date:0
+#: field:cmms.question,write_date:0
+#: field:cmms.request.link,write_date:0
+msgid "Last Updated on"
+msgstr "Ultima actualizacion en"
+
+#. module: cmms
+#: view:cmms.equipment:cmms.cmms_kanban_view
+msgid "Ligne de production:"
+msgstr "Línea de producción:"
+
+#. module: cmms
+#: field:cmms.line,code:0
+msgid "Line reference"
+msgstr "Línea de referencia"
+
+#. module: cmms
+#: field:cmms.equipment,local_id:0
+#: field:cmms.line,location:0
+msgid "Location"
+msgstr "Ubicación"
+
+#. module: cmms
+#: selection:cmms.incident,priority:0
+#: selection:cmms.intervention,priority:0
+msgid "Low"
+msgstr "Bajo"
+
+#. module: cmms
+#: view:cmms.equipment:cmms.view_equipment_form
+msgid "M.C"
+msgstr ""
+
+#. module: cmms
+#: view:cmms.equipment:cmms.view_equipment_form
+msgid "M.P"
+msgstr ""
+
+#. module: cmms
+#: view:cmms.pm:cmms.view_pm_form
+msgid "MP parameters"
+msgstr "Parámetros MP"
+
+#. module: cmms
+#: model:ir.actions.act_window,name:cmms.open_view_equipment_new
+#: model:ir.ui.menu,name:cmms.menu_open_view_equipment_new2
+#: model:ir.ui.menu,name:cmms.menu_open_view_machine
+msgid "Machine"
+msgstr "Equipo"
+
+#. module: cmms
+#: model:ir.ui.menu,name:cmms.menu_open_view_cm_list
+msgid "Maintenance"
+msgstr "Mantenimiento"
+
+#. module: cmms
+#: view:cmms.equipment:cmms.view_equipment_form
+msgid "Maintenance Corrective"
+msgstr "Mantenimiento Correctivo"
+
+#. module: cmms
+#: field:cmms.equipment,cm_id:0
+msgid "Maintenance Corrective "
+msgstr "Mantenimiento Correctivo "
+
+#. module: cmms
+#: view:cmms.equipment:cmms.view_equipment_form
+#: field:cmms.equipment,pm_id:0
+msgid "Maintenance Preventive"
+msgstr "Mantenimiento Preventivo"
+
+#. module: cmms
+#: field:cmms.archiving3,user_id:0
+#: field:cmms.checklist.history,user_id:0
+#: field:cmms.equipment,user_id:0
+#: field:cmms.incident,user_id:0
+msgid "Manager"
+msgstr "Responsable"
+
+#. module: cmms
+#: help:cmms.pm,recurrent:0
+msgid "Mark this option if PM is periodic"
+msgstr "Marque esta opción si PM es periódico"
+
+#. module: cmms
+#: field:cmms.checklist.history,message_ids:0
+#: field:cmms.cm,message_ids:0
+#: field:cmms.equipment,message_ids:0
+#: field:cmms.incident,message_ids:0
+#: field:cmms.intervention,message_ids:0
+#: field:cmms.line,message_ids:0
+#: field:cmms.pm,message_ids:0
+msgid "Messages"
+msgstr "Mensajes"
+
+#. module: cmms
+#: help:cmms.checklist.history,message_ids:0
+#: help:cmms.cm,message_ids:0
+#: help:cmms.equipment,message_ids:0
+#: help:cmms.incident,message_ids:0
+#: help:cmms.intervention,message_ids:0
+#: help:cmms.line,message_ids:0
+#: help:cmms.pm,message_ids:0
+msgid "Messages and communication history"
+msgstr "Mensajes e historial de comunicaciones"
+
+#. module: cmms
+#: field:cmms.parameter.mail,module:0
+#: field:cmms.parameter.option,module:0
+msgid "Module"
+msgstr "Módulo"
+
+#. module: cmms
+#: field:cmms.intervention,motif:0
+msgid "Motif"
+msgstr "Razón"
+
+#. module: cmms
+#: view:cmms.intervention:cmms.view_intervention_form
+msgid "Motif d'intervention"
+msgstr "Razón de intervención"
+
+#. module: cmms
+#: field:cmms.equipment,name:0
+#: view:cmms.intervention:cmms.cmms_interv_search
+#: field:cmms.request.link,name:0
+msgid "Name"
+msgstr "Nombre"
+
+#. module: cmms
+#: view:cmms.equipment:cmms.cmms_kanban_view
+msgid "Name :"
+msgstr "Nombre: "
+
+#. module: cmms
+#: field:cmms.pm,days_next_due:0
+msgid "Next date"
+msgstr "Próxima fecha"
+
+#. module: cmms
+#: selection:cmms.answer.history,answer:0
+msgid "No"
+msgstr "No"
+
+#. module: cmms
+#: selection:cmms.incident,priority:0
+#: selection:cmms.intervention,priority:0
+msgid "Normal"
+msgstr "Normal"
+
+#. module: cmms
+#: view:cmms.cm:cmms.view_cm_form
+#: field:cmms.cm,note:0
+msgid "Notes"
+msgstr "Notas"
+
+#. module: cmms
+#: field:cmms.request.link,object:0
+msgid "Object"
+msgstr "Objeto"
+
+#. module: cmms
+#: field:cmms.archiving3,name:0
+msgid "Objet"
+msgstr "Objeto"
+
+#. module: cmms
+#: view:cmms.intervention:cmms.view_intervention_form
+#: field:cmms.intervention,observation:0
+msgid "Observation"
+msgstr "Observación"
+
+#. module: cmms
+#: selection:cmms.intervention,priority:0
+#: selection:cmms.intervention,type:0
+msgid "Other"
+msgstr "Otro"
+
+#. module: cmms
+#: model:ir.model,name:cmms.model_cmms_archiving2
+msgid "PM follow-up history"
+msgstr "Historia de seguimiento del PM"
+
+#. module: cmms
+#: field:cmms.parameter.mail,is_param:0
+#: field:cmms.parameter.option,is_param:0
+msgid "Paramètre"
+msgstr "Configuración"
+
+#. module: cmms
+#: model:ir.model,name:cmms.model_cmms_parameter_mail
+msgid "Paramètre du serveur"
+msgstr "Configuración del servidor"
+
+#. module: cmms
+#: model:ir.model,name:cmms.model_cmms_parameter_option
+msgid "Paramètres"
+msgstr "Configuraciones"
+
+#. module: cmms
+#: view:cmms.parameter.option:cmms.cmms_parameter_option_tree
+msgid "Paramétrage des options"
+msgstr "Configuración de las opciones"
+
+#. module: cmms
+#: view:cmms.parameter.mail:cmms.cmms_parameter_mail_tree
+msgid "Paramétrage des serveurs de messagerie"
+msgstr "Configuración de servidores de correo"
+
+#. module: cmms
+#: field:cmms.equipment,photo:0
+msgid "Photo"
+msgstr "Foto"
+
+#. module: cmms
+#: view:cmms.equipment:cmms.view_equipment_form
+#: field:cmms.equipment,product_ids:0
+msgid "Piece of change"
+msgstr "Pieza de cambio"
+
+#. module: cmms
+#: field:cmms.checklist.history,date_planned:0
+msgid "Planned date"
+msgstr "Fecha planeada"
+
+#. module: cmms
+#: model:cmms.request.link,name:cmms.line2
+msgid "Preventive Maintenance "
+msgstr "Mantenimiento Preventivo "
+
+#. module: cmms
+#: model:ir.model,name:cmms.model_cmms_pm
+msgid "Preventive Maintenance System"
+msgstr "Sistema de Mantenimiento Preventivo"
+
+#. module: cmms
+#: field:cmms.equipment,pm_count:0
+#: model:ir.actions.act_window,name:cmms.open_view_pm_new
+#: model:ir.ui.menu,name:cmms.menu_open_view_pm_new
+msgid "Preventive maintenance"
+msgstr "Mantenimiento Preventivo"
+
+#. module: cmms
+#: field:cmms.incident,priority:0
+#: view:cmms.intervention:cmms.cmms_interv_search
+#: field:cmms.request.link,priority:0
+msgid "Priority"
+msgstr "Prioridad"
+
+#. module: cmms
+#: field:cmms.equipment,line_id:0
+#: view:cmms.line:cmms.view_line_form
+#: view:cmms.line:cmms.view_line_tree
+#: field:cmms.line,name:0
+#: model:ir.actions.act_window,name:cmms.open_view_line_new
+#: model:ir.model,name:cmms.model_cmms_line
+#: model:ir.ui.menu,name:cmms.menu_open_view_line_new2
+msgid "Production line"
+msgstr "Línea de Producción"
+
+#. module: cmms
+#: view:cmms.pm:cmms.view_pm_form
+#: view:cmms.pm:cmms.view_pm_tree
+msgid "Properties"
+msgstr "Propiedades"
+
+#. module: cmms
+#: field:cmms.equipment,invoice_id:0
+msgid "Purchase invoice"
+msgstr "Factura de compra"
+
+#. module: cmms
+#: field:cmms.answer.history,name:0
+#: field:cmms.question,name:0
+#: model:ir.model,name:cmms.model_cmms_question
+msgid "Question"
+msgstr "Pregunta"
+
+#. module: cmms
+#: view:cmms.checklist:cmms.view_checklist_form
+#: field:cmms.checklist,questions_ids:0
+#: view:cmms.checklist.history:cmms.view_checklist_history_form
+msgid "Questions"
+msgstr "Preguntas"
+
+#. module: cmms
+#: view:cmms.parameter.option:cmms.cmms_parameter_option_search
+msgid "Recherche options"
+msgstr "Opciones de búsqueda"
+
+#. module: cmms
+#: view:cmms.parameter.mail:cmms.cmms_parameter_mail_search
+msgid "Recherche paramètres de serveurs de messagerie"
+msgstr "Connfiguración del servidor de correo de búsqueda"
+
+#. module: cmms
+#: field:cmms.intervention,user2_id:0
+msgid "Recipient"
+msgstr "Receptor"
+
+#. module: cmms
+#: field:cmms.pm,recurrent:0
+msgid "Recurrent ?"
+msgstr "Recurrente?"
+
+#. module: cmms
+#: field:cmms.pm,name:0
+msgid "Ref PM"
+msgstr ""
+
+#. module: cmms
+#: view:cmms.incident:cmms.cmms_incident-view
+msgid "Reference"
+msgstr "Referencia"
+
+#. module: cmms
+#: view:cmms.incident:cmms.cmms_incident-view
+msgid "References"
+msgstr "Referencias"
+
+#. module: cmms
+#: view:cmms.checklist.history:cmms.view_checklist_history_form
+#: view:cmms.incident:cmms.cmms_incident-view
+#: view:cmms.intervention:cmms.view_intervention_form
+msgid "Remettre en brouillon"
+msgstr "Regresar a borrador"
+
+#. module: cmms
+#: selection:cmms.intervention,type:0
+msgid "Repair"
+msgstr "Reparación"
+
+#. module: cmms
+#: view:cmms.request.link:cmms.view_request_link_form
+#: view:cmms.request.link:cmms.view_request_link_tree
+msgid "Request Link"
+msgstr "Enlace de solicitud"
+
+#. module: cmms
+#: model:ir.actions.act_window,name:cmms.open_view_link
+#: model:ir.ui.menu,name:cmms.menu_open_view_link
+msgid "Request link"
+msgstr "Enlace de solicitud"
+
+#. module: cmms
+#: view:cmms.intervention:cmms.cmms_interv_search
+msgid "Responsable"
+msgstr "Responsable"
+
+#. module: cmms
+#: field:cmms.checklist.history,answers_ids:0
+msgid "Responses"
+msgstr "Respuestas"
+
+#. module: cmms
+#: selection:cmms.intervention,type:0
+msgid "Revision"
+msgstr "Revisión"
+
+#. module: cmms
+#: view:cmms.equipment:cmms.cmms_kanban_view
+msgid "Référence machine:"
+msgstr "Referencia del equipo:"
+
+#. module: cmms
+#: view:cmms.equipment:cmms.view_equipment_form
+#: field:cmms.equipment,safety:0
+msgid "Safety instruction"
+msgstr "Instrucción de seguridad"
+
+#. module: cmms
+#: field:cmms.intervention,user_id:0
+msgid "Sender"
+msgstr "Emisor"
+
+#. module: cmms
+#: field:cmms.line,sequence:0
+msgid "Sequence"
+msgstr "Secuencia"
+
+#. module: cmms
+#: field:cmms.parameter.mail,server:0
+msgid "Serveur d'envoi"
+msgstr "Servidor de correo saliente"
+
+#. module: cmms
+#: view:cmms.config.settings:cmms.view_cmms_config_settings
+msgid "Serveur de messagerie"
+msgstr "Servidor de correo"
+
+#. module: cmms
+#: field:cmms.diagnosistab,solution:0
+msgid "Solution"
+msgstr "Solución"
+
+#. module: cmms
+#: field:cmms.equipment,startingdate:0
+msgid "Starting date"
+msgstr "Fecha de inicio"
+
+#. module: cmms
+#: field:cmms.checklist.history,state:0
+#: field:cmms.pm,state:0
+msgid "Status"
+msgstr "Estado"
+
+#. module: cmms
+#: field:cmms.incident,state:0
+#: field:cmms.intervention,state:0
+msgid "Statut"
+msgstr "Estatus"
+
+#. module: cmms
+#: field:cmms.pm,days_left:0
+msgid "Staying days"
+msgstr "Días de permanencia"
+
+#. module: cmms
+#: field:cmms.checklist.history,message_summary:0
+#: field:cmms.cm,message_summary:0
+#: field:cmms.equipment,message_summary:0
+#: field:cmms.incident,message_summary:0
+#: field:cmms.intervention,message_summary:0
+#: field:cmms.line,message_summary:0
+#: field:cmms.pm,message_summary:0
+msgid "Summary"
+msgstr "Resumen"
+
+#. module: cmms
+#: code:addons/cmms/res_config.py:82
+#: code:addons/cmms/res_config.py:164
+#, python-format
+msgid "Suppression impossible"
+msgstr "No puede eliminar"
+
+#. module: cmms
+#: model:ir.actions.act_window,name:cmms.open_board_travaux
+msgid "Tableau de Bord des interventions"
+msgstr "Panel de intervenciones"
+
+#. module: cmms
+#: view:board.board:cmms.board_travaux_form
+msgid "Tableau du Bord"
+msgstr "Tabla de borde"
+
+#. module: cmms
+#: view:cmms.intervention:cmms.cmms_interv_search
+msgid "Terminé"
+msgstr "Completado"
+
+#. module: cmms
+#: field:cmms.checklist,name:0
+msgid "Title"
+msgstr "Título"
+
+#. module: cmms
+#: field:cmms.equipment,trademark:0
+msgid "Trademark"
+msgstr "Marca"
+
+#. module: cmms
+#: view:cmms.intervention:cmms.formation_work_calendar
+msgid "Travaux"
+msgstr "Trabajos"
+
+#. module: cmms
+#: view:cmms.intervention:cmms.cmms_interv_search
+#: field:cmms.parameter.mail,name:0
+#: field:cmms.parameter.option,name:0
+msgid "Type"
+msgstr "Tipo"
+
+#. module: cmms
+#: field:cmms.failure,name:0
+#: model:ir.actions.act_window,name:cmms.open_view_failure_new
+#: model:ir.ui.menu,name:cmms.menu_open_view_failure_new
+msgid "Type of failure"
+msgstr "Tipo de falla"
+
+#. module: cmms
+#: field:cmms.pm,meter:0
+msgid "Unit of measure"
+msgstr "Unidad de medida"
+
+#. module: cmms
+#: field:cmms.checklist.history,equipment_id:0
+#: field:cmms.cm,equipment_id:0
+#: view:cmms.equipment:cmms.view_equipment_list
+#: view:cmms.equipment:cmms.view_equipment_tree
+#: field:cmms.incident,equipment_id:0
+#: field:cmms.intervention,equipment_id:0
+#: field:cmms.pm,equipment_id:0
+#: model:ir.actions.act_window,name:cmms.open_view_equipment_list
+msgid "Unit of work"
+msgstr "Unidad de trabajo"
+
+#. module: cmms
+#: field:cmms.equipment,description:0
+#: field:cmms.equipment,type:0
+msgid "Unit of work reference"
+msgstr "Referencia de la unidad de trabajo"
+
+#. module: cmms
+#: field:cmms.checklist.history,message_unread:0
+#: field:cmms.cm,message_unread:0
+#: field:cmms.equipment,message_unread:0
+#: field:cmms.incident,message_unread:0
+#: field:cmms.intervention,message_unread:0
+#: field:cmms.line,message_unread:0
+#: field:cmms.pm,message_unread:0
+msgid "Unread Messages"
+msgstr "Mensajes no leídos"
+
+#. module: cmms
+#: selection:cmms.intervention,priority:0
+msgid "Urgent"
+msgstr "Urgente"
+
+#. module: cmms
+#: view:cmms.checklist.history:cmms.view_checklist_history_form
+#: view:cmms.config.settings:cmms.view_cmms_config_settings
+#: view:cmms.incident:cmms.cmms_incident-view
+#: view:cmms.intervention:cmms.view_intervention_form
+msgid "Valider"
+msgstr "Validar"
+
+#. module: cmms
+#: selection:cmms.checklist.history,state:0
+#: selection:cmms.incident,state:0
+#: selection:cmms.intervention,state:0
+msgid "Validé"
+msgstr "Validado"
+
+#. module: cmms
+#: code:addons/cmms/res_config.py:76
+#: code:addons/cmms/res_config.py:158
+#, python-format
+msgid "Vous ne pouvez pas copier de paramètres,             ils sont définis nativement"
+msgstr "No puede copiar los parámetros,             deben ser definidos nativamente"
+
+#. module: cmms
+#: code:addons/cmms/res_config.py:69
+#: code:addons/cmms/res_config.py:151
+#, python-format
+msgid "Vous ne pouvez pas créer de paramètres,                 ils sont définis nativement"
+msgstr "No puede crear los parámetros,                 deben ser definidos nativamente"
+
+#. module: cmms
+#: code:addons/cmms/res_config.py:83
+#: code:addons/cmms/res_config.py:165
+#, python-format
+msgid "Vous ne pouvez pas supprimer de paramètres,             ils sont définis nativement"
+msgstr "No puede eliminar los parámetros,                 deben ser definidos nativamente"
+
+#. module: cmms
+#: field:cmms.pm,days_warn_period:0
+msgid "Warning date"
+msgstr "Fecha de advertencia"
+
+#. module: cmms
+#: field:cmms.checklist.history,website_message_ids:0
+#: field:cmms.cm,website_message_ids:0
+#: field:cmms.equipment,website_message_ids:0
+#: field:cmms.incident,website_message_ids:0
+#: field:cmms.intervention,website_message_ids:0
+#: field:cmms.line,website_message_ids:0
+#: field:cmms.pm,website_message_ids:0
+msgid "Website Messages"
+msgstr "Mensajes del sitio web"
+
+#. module: cmms
+#: help:cmms.checklist.history,website_message_ids:0
+#: help:cmms.cm,website_message_ids:0
+#: help:cmms.equipment,website_message_ids:0
+#: help:cmms.incident,website_message_ids:0
+#: help:cmms.intervention,website_message_ids:0
+#: help:cmms.line,website_message_ids:0
+#: help:cmms.pm,website_message_ids:0
+msgid "Website communication history"
+msgstr "Historial de la comunicación del sitio web"
+
+#. module: cmms
+#: view:cmms.equipment:cmms.view_equipment_form
+#: field:cmms.equipment,order_count:0
+msgid "Work Order"
+msgstr "Orden de Trabajo"
+
+#. module: cmms
+#: model:ir.actions.act_window,name:cmms.open_view_incident_new
+#: model:ir.ui.menu,name:cmms.menu_open_view_incident_list
+msgid "Work order"
+msgstr "Orden de trabajo"
+
+#. module: cmms
+#: field:cmms.incident,date:0
+msgid "Work order date"
+msgstr "Fecha de orden de trabajo"
+
+#. module: cmms
+#: field:cmms.incident,name:0
+msgid "Work order reference"
+msgstr "Referencia de la orden de trabajo"
+
+#. module: cmms
+#: field:cmms.incident,ref:0
+msgid "Work order source"
+msgstr "Origen de la orden de trabajo"
+
+#. module: cmms
+#: model:ir.actions.act_window,name:cmms.cmms_incident_act
+msgid "Work orders"
+msgstr "Ordenes de trabajo"
+
+#. module: cmms
+#: selection:cmms.answer.history,answer:0
+msgid "Yes"
+msgstr "Sí"
+
+#. module: cmms
+#: field:cmms.parameter.mail,mail_from:0
+msgid "addresse d'expéditeur"
+msgstr "Dirección del remitente"
+
+#. module: cmms
+#: model:cmms.request.link,name:cmms.line3
+#: model:ir.model,name:cmms.model_cmms_checklist
+msgid "checklist"
+msgstr "Lista de verificación"
+
+#. module: cmms
+#: model:res.groups,name:cmms.group_cmms_user
+msgid "cmmc-user"
+msgstr "cmms_user"
+
+#. module: cmms
+#: model:res.groups,name:cmms.group_cmms_manager
+msgid "cmms-manager"
+msgstr "cmms_manager"
+
+#. module: cmms
+#: field:cmms.archiving,name:0
+#: field:cmms.archiving2,name:0
+msgid "effect"
+msgstr "efecto"
+
+#. module: cmms
+#: model:ir.model,name:cmms.model_cmms_equipment
+msgid "equipment"
+msgstr "equipo"
+
+#. module: cmms
+#: view:cmms.failure:cmms.view_failure_form
+#: view:cmms.failure:cmms.view_failure_tree
+msgid "failure"
+msgstr "Falla"
+
+#. module: cmms
+#: model:ir.model,name:cmms.model_cmms_failure
+msgid "failure cause"
+msgstr "Causa de la falla"
+
+#. module: cmms
+#: field:cmms.failure,description:0
+msgid "failure description"
+msgstr "Descripción de la falla"
+
+#. module: cmms
+#: field:cmms.incident,archiving3_ids:0
+msgid "follow-up history"
+msgstr "historial de seguimiento"
+
+#. module: cmms
+#: model:ir.ui.menu,name:cmms.menu_open_view_incident_new2
+msgid "incident"
+msgstr "Incidente"
+
+#. module: cmms
+#: model:ir.actions.act_window,name:cmms.act_op_draft_work
+msgid "intervention"
+msgstr "Intervención"
+
+#. module: cmms
+#: model:ir.actions.act_window,name:cmms.act_op_cancel_work
+msgid "order"
+msgstr "Orden"
+
+#. module: cmms
+#: field:cmms.intervention,priority:0
+msgid "priority"
+msgstr "Prioridad"
+
+#. module: cmms
+#: field:cmms.answer.history,answer:0
+msgid "response"
+msgstr "Respuesta"
+
+#. module: cmms
+#: field:cmms.parameter.option,value:0
+msgid "réponse"
+msgstr "Respuesta"
+
+#. module: cmms
+#: view:cmms.equipment:cmms.view_equipment_form
+msgid "show the Intervention for this Equipement"
+msgstr "Mostrar la intervención de este equipo"
+
+#. module: cmms
+#: view:cmms.equipment:cmms.view_equipment_form
+msgid "show the Preventive maintenance for this Equipement"
+msgstr "Mostrar el mantenimiento preventivo de este equipo"
+
