@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-################################################################################
+###############################################################################
 #
 # Computerized maintenance management system (CMMS) module,
-# Copyright (C) 
-#    2015 - Ait-Mlouk Addi , (http://www.aitmlouk.info/)-- aitmlouk@gmail.com --
-#    
+# Copyright (C)
+#    2015 - Ait-Mlouk Addi , (http://www.aitmlouk.info/)-- aitmlouk@gmail.com -
+#
 # CMMS module is free software: you can redistribute
 # it and/or modify it under the terms of the Affero GNU General Public License
 # as published by the Free Software Foundation, either version 3 of the
@@ -18,21 +18,21 @@
 # You should have received a copy of the Affero GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
-################################################################################
+###############################################################################
 {
     "name": "CMMS",
     "version": "1.0",
     "depends": ["base", "product", "stock", "account", "mail"],
     "author": "Ait-Mlouk Addi",
     'website': 'http://www.aitmlouk.info/',
-    'sequence':1,
+    'sequence': 1,
     "category": "Specific Modules/CMMS",
     'icon': '/cmms/static/src/img/icon.png',
-    'summary' : 'Corrective maintenance, Preventive maintenance, Intervention',
+    'summary': 'Corrective maintenance, Preventive maintenance, Intervention',
     "description": """
-Computerized maintenance management system module allow you to manage 
+Computerized maintenance management system module allow you to manage
 preventives and corrective maintenance without limit.
-All informations is linked to the equipment tree and let you follow 
+All informations is linked to the equipment tree and let you follow
 maintenance operation :
  - Repair.
  - Check up List.
@@ -45,17 +45,15 @@ For more information:
 
 
     "init_xml": [],
-    'update_xml': [
+    'data': [
         'cmms_view.xml',
         'res_config_view.xml',
-        'cmms_dashboard_view.xml', 
+        'cmms_dashboard_view.xml',
         'security/cmms_security.xml',
         'security/ir.model.access.csv',
         'data/cmms_demo.xml',
         'data/cmms_sequence.xml',
         'cmms_menu.xml',
-        
-        
     ],
     'demo_xml': [],
     'installable': True,
